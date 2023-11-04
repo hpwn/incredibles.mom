@@ -1,38 +1,42 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #222;
+  color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-section, .commission-info {
+  margin-bottom: 20px;
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* This creates a three-column grid */
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.sample-image {
+  width: 100%; /* This will make each image take up the full width of its grid cell */
+  max-width: 150px; /* You can adjust this value to control the maximum size of the images */
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: auto; /* This centers the images within their grid cells */
+}
+
+.twitch-logo {
+  width: 50px; /* Adjusted width to better fit the horizontal logo */
+}
+
+.twitch-logo-align {
+  display: inline-block;
+  vertical-align: middle; /* This will align the image vertically with the text */
 }
