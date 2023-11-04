@@ -17,7 +17,7 @@ function App() {
           <h1>stop right there, criminal scum 😈</h1>
           <div className="commission-info">
 
-            <h3>commissions open 📥 <a href="url" className="link-text">dm</a> <a href="url" className="link-text">email</a>
+            <h3>commissions open 📥 <a href="https://twitter.com/messages/compose?recipient_id=48013384" className="link-text">dm</a> <a href="mailto:hwplivnlow@gmail.com" className="link-text">email</a>
               &nbsp;
               <a href="https://twitch.tv/hp_az" target="_blank" rel="noopener noreferrer">
                 <img src="https://www.vectorlogo.zone/logos/twitch/twitch-horizontal.svg" alt="Twitch Logo" className="twitch-logo" />
