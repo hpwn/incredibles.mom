@@ -35,8 +35,3 @@
 .twitch-logo {
   width: 50px; /* Adjusted width to better fit the horizontal logo */
 }
-
-.twitch-logo-align {
-  display: inline-block;
-  vertical-align: middle; /* This will align the image vertically with the text */
-}
