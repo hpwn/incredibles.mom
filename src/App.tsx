@@ -15,23 +15,27 @@ function App() {
       <header className="App-header">
         <div className="title-section">
           <h1>stop right there, criminal scum 😈</h1>
-          <p></p>
+          <div className="commission-info">
+
+            <h3>commissions open 📥 <a href="url" className="link-text">dm</a> <a href="url" className="link-text">email</a>
+              &nbsp;
+              <a href="https://twitch.tv/hp_az" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.vectorlogo.zone/logos/twitch/twitch-horizontal.svg" alt="Twitch Logo" className="twitch-logo" />
+              </a>
+            </h3>
+
+
+
+          </div>
         </div>
         <div className="image-section">
           {/* Display your sample images */}
-          <img src={image1} alt="Sample 1" className="sample-image"/>
-          <img src={image2} alt="Sample 2" className="sample-image"/>
-          <img src={image3} alt="Sample 3" className="sample-image"/>
-          <img src={image4} alt="Sample 4" className="sample-image"/>
-          <img src={image5} alt="Sample 5" className="sample-image"/>
-          <img src={image6} alt="Sample 6" className="sample-image"/>
-        </div>
-        <div className="commission-info">
-          <h2>commissions open</h2>
-          <p>check stream <a href="https://twitch.tv/hp_az" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.vectorlogo.zone/logos/twitch/twitch-horizontal.svg" alt="Twitch Logo" className="twitch-logo"/>
-          </a></p>
-          <p>dm 📥 email 📧</p>
+          <img src={image1} alt="Sample 1" className="sample-image" />
+          <img src={image2} alt="Sample 2" className="sample-image" />
+          <img src={image3} alt="Sample 3" className="sample-image" />
+          <img src={image4} alt="Sample 4" className="sample-image" />
+          <img src={image5} alt="Sample 5" className="sample-image" />
+          <img src={image6} alt="Sample 6" className="sample-image" />
         </div>
       </header>
     </div>

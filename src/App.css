@@ -17,21 +17,44 @@
   margin-bottom: 20px;
 }
 
+.commission-info {
+  color: #c1a273;
+}
+
+.link-text, .link-text:visited {
+  color: #c0c0c0; /* Same color for visited links */
+}
+
 .image-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* This creates a three-column grid */
-  gap: 10px;
-  margin: 20px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* This adds space between the images */
+  max-width: 100%; /* This ensures the grid doesn't exceed the width of its container */
+}
+
+@media (max-width: 768px) { /* For smaller devices */
+  .image-section {
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) { /* For mobile devices */
+  .image-section {
+    grid-template-columns: 1fr; /* 1 image per row on very small screens */
+  }
 }
 
 .sample-image {
-  width: 100%; /* This will make each image take up the full width of its grid cell */
-  max-width: 150px; /* You can adjust this value to control the maximum size of the images */
+  width: 100%; /* Image will fill the cell created by the grid */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Image will not exceed its own resolution */
   border: 2px solid #fff;
   border-radius: 10px;
-  margin: auto; /* This centers the images within their grid cells */
+  margin: 10px 0; /* Additional margin if needed */
 }
 
 .twitch-logo {
   width: 50px; /* Adjusted width to better fit the horizontal logo */
+  position: relative;
+  top: 3px;
 }
